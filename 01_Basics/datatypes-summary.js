@@ -50,4 +50,22 @@ console.log(typeof bigNumber);
 // Javascript is Dynamically typed language means we don't have to define
 // data type while declaring a variable
 
+/*  Return type of variables in JavaScript
+
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
+
+*/
+
 
