@@ -68,4 +68,26 @@ console.log(typeof bigNumber);
 
 */
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myname = "Anurag Agrawal"
+
+let anothername = myname
+anothername = "Bharat"
+
+console.log(myname);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "anurag@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
